@@ -1,0 +1,6 @@
+
+<%= form_for Guess.new do |form| %>
+  <%= form.text_field :guessed_number, autofocus: true %><br />
+  <%= form.submit "Create new guess!" %>
+
+<% end %>
